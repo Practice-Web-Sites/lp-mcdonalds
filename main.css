@@ -120,7 +120,7 @@ header ul a {
 }
 
 /*==============================
- CONTENT IMAGES
+ CONTENT IMAGE
 ==============================*/
 
 .content .imgBox {
@@ -135,6 +135,10 @@ header ul a {
 .imgBox img {
     max-width: 360px;
     transform: rotate(-5deg);
+}
+
+.bg-circle {
+    
 }
 
 /*==============================
@@ -169,7 +173,39 @@ header ul a {
     transform: translateY(-25px);
 }
 
+/*==============================
+ SOCIAL ICONS
+==============================*/
+
+/* fix to right sight */
+.socialIcons {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-60%);
+}
+
+/* style the icons */
+.socialIcons li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px 0;
+}
+
+/* icon colors */
+.socialIcons li a i  {
+    color: var(--black);
+}
+
+
+
 
 /*==============================
  MEDIA QUERIES
 ==============================*/
+
+/* @780 */
